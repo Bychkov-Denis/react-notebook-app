@@ -1,0 +1,16 @@
+export const MAIN_ROUTE = '/';
+export const PROJECT_STRUCTURE_ROUTE = '/project-structure';
+export const VIRTUALDOM_ROUTE = '/virtual-dom';
+export const COMPONENTS_ROUTE = '/components';
+export const PROPS_ROUTE = '/props';
+export const STATE_ROUTE = '/state';
+export const LIFECYCLE_ROUTE = '/lifecycle';
+export const EVENTS_ROUTE = '/events';
+export const KEY_ROUTE = '/key';
+export const FRAGMENT_ROUTE = '/fragment';
+export const REFS_ROUTE = '/refs';
+export const OPTIMIZATION_ROUTE = '/optimization';
+export const CONTEXT_ROUTE = '/context';
+export const STORAGES_ROUTE = '/storages';
+export const HOC_ROUTE = '/hoc';
+export const ROUTING_ROUTE = '/routing';
