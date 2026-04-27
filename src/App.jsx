@@ -1,6 +1,6 @@
 import { App as AntApp, ConfigProvider, theme } from 'antd';
 import { Suspense } from 'react';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import AppRouter from './components/AppRouter';
 import LoadingPage from './pages/LoadingPage';
 import './reset.css';
@@ -29,11 +29,11 @@ const App = () => {
       }}
     >
       <AntApp>
-        <BrowserRouter>
+        <HashRouter>
           <Suspense fallback={<LoadingPage />}>
             <AppRouter />
           </Suspense>
-        </BrowserRouter>
+        </HashRouter>
       </AntApp>
     </ConfigProvider>
   );
